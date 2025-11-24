@@ -1,137 +1,111 @@
-# Student Course Management System
+## Digital Document Vault
 
-  The **Student Course Management System** is a Java-based application built using **JDBC**, **MySQL**, and **Eclipse IDE**. It allows admins to manage students and their course details efficiently.
+  A Java-based web application built with JSP, Servlets, JDBC, and MySQL that allows users to securely upload, download, and manage documents online.
 
----
 
-## ✨ Features
+##✨ Features
 
-* Add new students
-* Update student details
-* Delete student records
-* View all students
-* Add and manage courses
-* Student–Course enrollment
-* MySQL database integration
-* Clean console-based UI
+- User registration and login
+- Upload and download files
+- View all uploaded files
+- Delete files securely
+- File management per user
+- Responsive, clean UI
 
----
 
-## 🖥️ Tech Stack
+##🖥️ Tech Stack
 
-| Technology                  | Description                                   |
-| --------------------------- | --------------------------------------------- |
-| **Java (Core + JDBC)**      | Backend logic, database operations            |
-| **MySQL**                   | Database for storing student & course records |
-| **Eclipse IDE**             | Development environment                       |
-| **XAMPP / MySQL Workbench** | Managing the database                         |
+Technology	                |   Purpose
+---------------------           ---------------------------
+Java (JSP + Servlet)	      |   Backend logic & file handling
+MySQL                       |	  Database to store user & file data
+JDBC                        |  	Database connectivity
+Eclipse IDE	                |   Development environment
+HTML / CSS	                |   Frontend UI design
 
----
 
-## 📂 Project Structure
+##📂 Project Structure
 
-```
-StudentCourseManagementSystem/
-├── src/
-│   ├── dao/
-│   │   └── StudentDAO.java
-│   ├── model/
-│   │   └── Student.java
-│   ├── util/
-│   │   └── DBConnection.java
-│   └── Main.java
-├── lib/
-│   └── mysql-connector.jar
-└── README.md
-```
+DigitalDocumentVault/
+├── src/        # Java source files (controller, dao, model, util)
+├── webapp/     # JSP pages & assets
+└── screenshots/ # Screenshots of the application
 
----
 
-## 🛠️ Setup Instructions
+##🛠️ Setup Instructions
 
-### **1️⃣ Clone the Repository**
+###1️⃣ Clone the Repository
 
-```
-git clone https://github.com/HumeraSK/StudentCourseManagementSystem.git
-```
+    git clone https://github.com/HumeraSK/Digital-Document-Vault.git
 
-### **2️⃣ Import Into Eclipse**
+2️⃣ Import into Eclipse
 
-* Open **Eclipse** → File → Import → Existing Java Project
-* Select the cloned folder
+- Open Eclipse → File → Import → Existing Dynamic Web Project
+- Select the cloned folder
 
-### **3️⃣ Add MySQL Connector JAR**
+3️⃣ Add MySQL Connector JAR
 
-* Right-clink project → Build Path → Configure Build Path → Add External JAR
-* Select `mysql-connector.jar`
+- Right-click project → Build Path → Configure Build Path → Add External JAR
+- Add mysql-connector-j-9.4.0.jar
 
-### **4️⃣ Configure Database**
+4️⃣ Configure Database
 
-Create a database in MySQL:
+- Create a database in MySQL:
+- CREATE DATABASE digital_vault;
+- Create the users and files tables as per your application design and update DBConnection.java with credentials.
 
-```
-CREATE DATABASE student_db;
-```
-
-Create required tables:
-
-```
-CREATE TABLE students (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    phone VARCHAR(20),
-    course VARCHAR(100)
-);
-```
-
-Update DB credentials inside `DBConnection.java`.
-
----
-
-## 📸 Screenshots
+  
+##📸 Screenshots
 
 ### **🔹 Index**
+
 ![Index](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/Index.png)  
 
+
 ### **🔹 Register**
+
 ![Register](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/Register.png)  
 
+
 ### **🔹 SignIn**
+
 ![Sign In](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/SignIn.png)  
 
+
 ### **🔹 Dashboard**
+
 ![Dashboard](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/Dashboard.png)  
 
+
 ### **🔹 Upload**
+
 ![Upload](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/Upload.png)  
 
+
 ### **🔹 ViewFiles**
+
 ![View Files](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/ViewFiles.png)  
 
 
 ---
 
-## 🚀 How It Works
 
-The system follows a simple workflow:
 
-1. User selects an action from the menu
-2. Inputs required details
-3. Program validates inputs
-4. JDBC forwards data to MySQL
-5. Response is shown on screen
+##🚀 How It Works
 
----
+- User registers and logs in
+- Uploads files through the dashboard
+- Can download or delete files as needed
+- All files are linked to the user in the database
 
-## 📈 Future Enhancements
 
-* GUI using JavaFX or Swing
-* Login & authentication for admin
-* Export student data as Excel/PDF
-* Course fee management
-* Attendance module
+##📈 Future Enhancements
 
----
+- Add user authentication with roles (admin, user)
+- Support for file categories & search
+- GUI enhancements with modern frameworks
+- File versioning and history
+
 
 ## 🤝 Contributing
 
@@ -139,13 +113,8 @@ Pull requests are welcome! For major changes, open an issue first.
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
-**Humera Shaikh**
 GitHub: [HumeraSK](https://github.com/HumeraSK)
 
 ---
-
-## ⭐ Show Your Support
-
-If you liked this project, consider giving it a **star ⭐ on GitHub**.
