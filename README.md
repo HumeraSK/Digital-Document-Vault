@@ -1,32 +1,32 @@
-## Digital Document Vault
+# Digital Document Vault
 
-  A Java-based web application built with JSP, Servlets, JDBC, and MySQL that allows users to securely upload, download, and manage documents online.
+A Java-based web application built with JSP, Servlets, JDBC, and MySQL that allows users to securely upload, download, and manage documents online.
 
+---
 
-##✨ Features
+## ✨ Features
 
-- User registration and login
-- Upload and download files
-- View all uploaded files
-- Delete files securely
-- File management per user
-- Responsive, clean UI
+- User registration and login  
+- Upload and download files  
+- View all uploaded files  
+- Delete files securely  
+- File management per user  
+- Responsive, clean UI  
 
+---
 
------------------------------------------------------
+## 🖥️ Tech Stack
 
+- **Java (JSP + Servlet):** Backend logic & file handling  
+- **MySQL:** Database to store user & file data  
+- **JDBC:** Database connectivity  
+- **Eclipse IDE:** Development environment  
+- **HTML / CSS:** Frontend UI design  
 
-🖥️ ## Tech Stack
+---
 
-Java (JSP + Servlet) – Backend logic & file handling
-MySQL – Database to store user & file data
-JDBC – Database connectivity
-Eclipse IDE – Development environment
-HTML / CSS – Frontend UI design
+## 📂 Project Structure
 
-
-
-##📂Project Structure
 
 src/ – Java source files (controller, dao, model, util)
 webapp/ – JSP pages & assets
