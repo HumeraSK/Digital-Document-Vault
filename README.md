@@ -13,16 +13,6 @@
 - Responsive, clean UI
 
 
-##🖥️ Tech Stack
-
-Technology	                |   Purpose
----------------------           ---------------------------
-Java (JSP + Servlet)	      |   Backend logic & file handling
-MySQL                       |	  Database to store user & file data
-JDBC                        |  	Database connectivity
-Eclipse IDE	                |   Development environment
-HTML / CSS	                |   Frontend UI design
-
 
 ##🖥️ Tech Stack
 
