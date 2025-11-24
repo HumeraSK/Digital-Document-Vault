@@ -16,7 +16,7 @@
 -----------------------------------------------------
 
 
-##🖥️ Tech Stack
+🖥️ ## Tech Stack
 
 Java (JSP + Servlet) – Backend logic & file handling
 MySQL – Database to store user & file data
