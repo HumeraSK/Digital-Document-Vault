@@ -24,12 +24,21 @@ Eclipse IDE	                |   Development environment
 HTML / CSS	                |   Frontend UI design
 
 
-##📂 Project Structure
+##🖥️ Tech Stack
 
-DigitalDocumentVault/
-├── src/        # Java source files (controller, dao, model, util)
-├── webapp/     # JSP pages & assets
-└── screenshots/ # Screenshots of the application
+Java (JSP + Servlet) – Backend logic & file handling
+MySQL – Database to store user & file data
+JDBC – Database connectivity
+Eclipse IDE – Development environment
+HTML / CSS – Frontend UI design
+
+
+
+##📂Project Structure
+
+src/ – Java source files (controller, dao, model, util)
+webapp/ – JSP pages & assets
+screenshots/ – Screenshots of the application
 
 
 ##🛠️ Setup Instructions
