@@ -36,19 +36,22 @@ screenshots/ – Screenshots of the application
 
 ## 🛠️ Setup Instructions
 
-###1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 
     git clone https://github.com/HumeraSK/Digital-Document-Vault.git
+
 
 2️⃣ Import into Eclipse
 
 - Open Eclipse → File → Import → Existing Dynamic Web Project
 - Select the cloned folder
 
+
 3️⃣ Add MySQL Connector JAR
 
 - Right-click project → Build Path → Configure Build Path → Add External JAR
 - Add mysql-connector-j-9.4.0.jar
+
 
 4️⃣ Configure Database
 
@@ -57,7 +60,7 @@ screenshots/ – Screenshots of the application
 - Create the users and files tables as per your application design and update DBConnection.java with credentials.
 
   
-##📸 Screenshots
+## 📸 Screenshots
 
 ### **🔹 Index**
 
@@ -93,7 +96,7 @@ screenshots/ – Screenshots of the application
 
 
 
-##🚀 How It Works
+## 🚀 How It Works
 
 - User registers and logs in
 - Uploads files through the dashboard
@@ -101,7 +104,7 @@ screenshots/ – Screenshots of the application
 - All files are linked to the user in the database
 
 
-##📈 Future Enhancements
+## 📈 Future Enhancements
 
 - Add user authentication with roles (admin, user)
 - Support for file categories & search
@@ -115,7 +118,7 @@ Pull requests are welcome! For major changes, open an issue first.
 
 ---
 
-##  Author
+## Author
 
 GitHub: [HumeraSK](https://github.com/HumeraSK)
 
