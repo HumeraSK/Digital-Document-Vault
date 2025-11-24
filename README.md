@@ -90,26 +90,24 @@ Update DB credentials inside `DBConnection.java`.
 
 ## 📸 Screenshots
 
-
-![Dashboard](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/Dashboard.png)  
+### **🔹 Index**
 ![Index](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/Index.png)  
+
+### **🔹 Register**
 ![Register](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/Register.png)  
+
+### **🔹 SignIn**
 ![Sign In](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/SignIn.png)  
+
+### **🔹 Dashboard**
+![Dashboard](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/Dashboard.png)  
+
+### **🔹 Upload**
 ![Upload](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/Upload.png)  
+
+### **🔹 ViewFiles**
 ![View Files](https://github.com/HumeraSK/Digital-Document-Vault/raw/master/screenshots/ViewFiles.png)  
 
-
-### **🔹 Index**
-
-![Index](your_image_link_here)
-
-### **🔹 Database Connection Working**
-
-![DB Connected](your_image_link_here)
-
-### **🔹 Student Added Successfully**
-
-![Student Added](your_image_link_here)
 
 ---
 
