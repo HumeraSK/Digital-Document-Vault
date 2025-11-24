@@ -32,6 +32,7 @@ src/ – Java source files (controller, dao, model, util)
 webapp/ – JSP pages & assets
 screenshots/ – Screenshots of the application
 
+---
 
 ##🛠️ Setup Instructions
 
