@@ -2,7 +2,6 @@
 
 A Java-based web application built with JSP, Servlets, JDBC, and MySQL that allows users to securely upload, download, and manage documents online.
 
----
 
 ## ✨ Features
 
@@ -13,7 +12,6 @@ A Java-based web application built with JSP, Servlets, JDBC, and MySQL that allo
 - File management per user  
 - Responsive, clean UI  
 
----
 
 ## 🖥️ Tech Stack
 
@@ -23,7 +21,6 @@ A Java-based web application built with JSP, Servlets, JDBC, and MySQL that allo
 - **Eclipse IDE:** Development environment  
 - **HTML / CSS:** Frontend UI design  
 
----
 
 ## 📂 Project Structure
 
@@ -36,10 +33,11 @@ screenshots/ – Screenshots of the application
 
 ## 🛠️ Setup Instructions
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
+  ```bash
+ git clone https://github.com/HumeraSK/Digital-Document-Vault.git
 
-    git clone https://github.com/HumeraSK/Digital-Document-Vault.git
-
+```
 
 2️⃣ Import into Eclipse
 
@@ -116,10 +114,9 @@ screenshots/ – Screenshots of the application
 
 Pull requests are welcome! For major changes, open an issue first.
 
----
 
 ## Author
 
 GitHub: [HumeraSK](https://github.com/HumeraSK)
 
----
+
